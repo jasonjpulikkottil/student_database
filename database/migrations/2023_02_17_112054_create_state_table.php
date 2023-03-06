@@ -16,6 +16,40 @@ return new class extends Migration
             $table->string('statename');
             $table->integer('countryid');
       });
+
+
+      DB::table('state')->insert([
+        'stateid' => 1,
+        'statename' => 'Kerala',
+        'countryid' => 1
+        
+    ]);
+
+    DB::table('state')->insert([
+        'stateid' => 2,
+        'statename' => 'Tamil Nadu',
+        'countryid' => 1
+        
+    ]);
+
+    DB::table('state')->insert([
+        'stateid' => 3,
+        'statename' => 'Dubai',
+        'countryid' => 2
+        
+    ]);
+
+    DB::table('state')->insert([
+        'stateid' => 4,
+        'statename' => 'Sharjah',
+        'countryid' => 1
+        
+    ]);
+
+
+
+
+
     }
 
     /**

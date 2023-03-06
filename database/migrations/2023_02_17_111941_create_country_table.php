@@ -15,6 +15,17 @@ return new class extends Migration
             $table->integer('countryid');
             $table->string('countryname');
       });
+
+      DB::table('country')->insert([
+        'countryid' => 1,
+        'countryname' => 'India'
+    ]);
+    DB::table('country')->insert([
+        'countryid' => 2,
+        'countryname' => 'UAE'
+    ]);
+
+
     }
 
     /**
