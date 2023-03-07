@@ -1,5 +1,5 @@
 # student database
- PHP Laravel 9 Livewire Task
+ PHP Laravel 10 Livewire Task
  
 ### Table Details
  
